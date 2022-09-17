@@ -1,0 +1,38 @@
+  h2.palabra {
+    margin: 0 auto 25px auto;
+    text-align: center;
+    color: royalblue;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  
+  picture {
+    position: relative;
+  }
+  picture img {
+    position: absolute;
+    top: -130px;
+    left: 205px;
+    height: 195px;
+  }
+  #image5, #image4, #image3,
+  #image2, #image1, #image0 {
+    opacity: 0;
+    transition: opacity .3s ease;
+  }
+  .fade-in {
+    opacity: 1 !important;
+  }
+
+  h1#msg-final {
+    text-align: center;
+    color: crimson;
+    transition: all .5s ease;
+    transform: scale(0);
+    min-height: 50px;
+    margin-bottom: 0;
+  }
+
+  .zoom-in {
+    transform: scale(1) !important;
+  }
